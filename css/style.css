@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "open-sans";
+}
+
+@font-face{
+	font-family: "open-sans";
+    src: url("../Fonts/OpenSans-Regular.ttf");
+}
+html,body{
+	height:100%;
+}
+
+.container{
+	width:100%;
+	max-width:1280px;
+	margin:0 auto;
+}
+.clear{
+	clear:both;
+}
+
+header{
+	width:100%;
+	padding:30px 2%;
+	background:white;
+}
+
+header .logo{
+	float:left;
+}
+header nav.menu{
+	float:right;
+	padding:38px 0;
+}
+
+header nav.menu ul {
+	float:right;
+	list-style-type:none;
+}
+
+header nav.menu ul li {
+	float:left;
+	padding:0 20px;
+	font-size:18px;
+	text-transform:uppercase;
+	font-style:italic;
+	color:black;
+	font-weight:bold;
+	
+}
