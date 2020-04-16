@@ -2,12 +2,12 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	font-family: "open-sans";
+	font-family: "tahoma";
 }
 
 @font-face{
-	font-family: "open-sans";
-    src: url("../Fonts/OpenSans-Regular.ttf");
+	font-family: "tahoma";
+    src: url("../Fonts/tahoma.ttf");
 }
 html,body{
 	height:100%;
@@ -44,10 +44,286 @@ header nav.menu ul {
 header nav.menu ul li {
 	float:left;
 	padding:0 20px;
+}
+
+header nav.menu ul li:first-child a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+
+header nav.menu ul li a{
 	font-size:18px;
 	text-transform:uppercase;
 	font-style:italic;
 	color:black;
 	font-weight:bold;
+	text-decoration:none;
+}
+/**Banner**/
+
+section.banner{
+	width:100%;
+}
+
+section.banner .banner-main{
+	width:100%;
+	height:660px;
+	background-color:black;
+	background-image:url(../img/car.png);
+	background-size:75% 100%;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	padding-top:139px;
+	padding-left:260px;
+}
+
+section.banner .banner-main .text-banner{
+	width:500px;
+	height:400px;
 	
+}
+
+section.banner .banner-main .text-banner .text-banner-single{
+	background-image:url(../img/box-text.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	padding:20px 0;
+	margin:20px 0;
+	
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	background-image:url(../img/box-white-text.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	padding:20px 0;
+	margin:20px 0;
+	position:relative;
+	top:0;
+	left:-54px;
+	
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+	color:black;
+	font-size:20px;
+	text-align:left;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
+	position:relative;
+	left:-18px;
+	top:0;
+	background-size:75% 100%;
+	padding:20px 0;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
+	position:relative;
+	left:-33px;
+	background-size:50% 100%;
+	padding:20px 0;
+	
+}
+
+section.banner .banner-main .text-banner p{
+	color:white;
+	font-size:45px;
+	text-transform:uppercase;
+	padding-left:60px;
+	font-style:italic;
+	
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1) p{
+	position:relative;
+	background-size:100%;
+	
+	
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2) p{
+	position:relative;
+	left:5px;
+
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3) p{
+	position:relative;
+	left:0;
+	
+}
+/**RESPOSNIVO**/
+
+@media screen and (max-width: 1535px){
+	section.banner .banner-main{
+	width:100%;
+	height:660px;
+	background-color:black;
+	background-image:url(../img/car.png);
+	background-size:110% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding-top:139px;
+	padding-left:68px;
+}
+
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
+		position:relative;
+		left:-22px;
+		top:0;
+		background-size:60% 100%;
+		padding:20px 0;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
+		position:relative;
+		left:-34px;
+		top:0;
+		background-size:50% 100%;
+		padding:20px 0;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
+		position:relative;
+		left:-44px;
+		background-size:35% 100%;
+		padding:20px 0;
+		
+	}
+
+section.banner .banner-main .text-banner p{
+		color:white;
+		font-size:30px;
+		text-transform:uppercase;
+		padding-left:44px;
+		font-style:italic;
+		text-align:left;
+		
+	}
+}
+
+
+@media screen and (max-width: 980px){
+		section.banner .banner-main {
+		width:100%;
+		height:500px;
+		background-color:black;
+		background-image:url(../img/car.png);
+		background-size:cover;
+		background-position:50% 100%;
+		background-repeat:no-repeat;
+		padding-top:8px;
+		padding-left:40px;
+	}
+
+section.banner .banner-main .text-banner{
+	width:500px;
+	height:250px;
+	
+}
+
+section.banner .banner-main .text-banner .text-banner-single{
+		background-image:url(../img/box-text.png);
+		background-position:left;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		padding:20px 0;
+		margin:20px 0;
+		
+	}	
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
+		position:relative;
+		left:0;
+		top:0;
+		background-size:60% 100%;
+		padding:20px 10px;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
+		position:relative;
+		left:0;
+		top:0;
+		background-size:50% 100%;
+		padding:20px 10px;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
+		position:relative;
+		left:0;
+		background-size:35% 100%;
+		padding:20px 10px;
+		
+	}
+
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	background-image:url(../img/box-white-text.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	padding:20px 0;
+	margin:20px 0;
+	position:relative;
+	top:0;
+	left:-14px;
+	
+}
+}
+
+@media screen and (max-width:580px){
+		section.banner .banner-main {
+		width:100%;
+		height:500px;
+		background-color:black;
+		background-image:url(../img/car.png);
+		background-size:cover;
+		background-position:50% 100%;
+		background-repeat:no-repeat;
+		padding-top:8px;
+		padding-left:20px;
+	}
+
+
+section.banner .banner-main .text-banner{
+	width:400px;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
+		position:relative;
+		left:0;
+		top:0;
+		background-size:60% 100%;
+		padding:20px 10px;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
+		position:relative;
+		left:-9px;
+		top:0;
+		background-size:50% 100%;
+		padding:20px 10px;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
+		position:relative;
+		left:-16px;
+		background-size:35% 100%;
+		padding:15px 10px;
+		
+		
+	}
+
+
+section.banner .banner-main .text-banner p{
+	color:white;
+	font-size:25px;
+	text-transform:uppercase;
+	padding-left:20px;
+	font-style:italic;
+
+	
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	position:relative;
+	top:0;
+	left:-16px;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+	font-size:17px;
+	font-weight:bold;
+}
 }
