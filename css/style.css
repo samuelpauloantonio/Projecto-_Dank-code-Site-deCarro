@@ -165,7 +165,9 @@ section.banner .banner-main{
 
 section.banner .banner-main .text-banner{
 	width:500px;
+	float:left;
 	height:400px;
+	clear:both;
 	
 }
 
@@ -244,7 +246,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3) p{
 
 section.montra {
 	width:100%;
-	height:35px;
+	height:auto;
 	max-width:1000px;
 	margin:0 auto;
 	margin-top:100px;
@@ -319,6 +321,9 @@ section.montra .vitrine .botao {
 	margin-top:20px;
 
 }
+
+
+
 section.montra .vitrine .botao input[type=button]{
 	max-width:153px;
 	height:43px;
@@ -358,6 +363,116 @@ section.montra .vitrine:nth-of-type(4) .carros-img{
 	background-position:center;
 	
 }
+
+
+
+Section.servicos{
+	width:100%;
+	display:flex;
+	margin:100px 0;
+}
+
+section.servicos .todos-servicos-1{
+	width:50%;
+	padding:90px 4% ;
+	background-color:#242424;
+	text-align:center;
+}
+section.servicos .todos-servicos-1 .servicos-single{
+	display:inline-block;
+}
+section.servicos .todos-servicos-1 .servicos-single h2{
+	color:white;
+	text-align:left;
+	font-size:35px;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding:20px 0;
+}
+section.servicos .todos-servicos-1 .servicos-single ul {
+	list-style-position:inside;
+	text-align:left;
+	position:relative;
+	left:10px;
+	display:inline-block;
+}
+section.servicos .todos-servicos-1 .servicos-single li {
+	color:white;
+	font-size:24px;
+	padding:5px 0;
+	
+}
+
+
+
+section.servicos .todos-servicos-1 .servicos-single a{
+	text-decoration:none;
+}
+section.servicos .todos-servicos-1 .servicos-single input[type=button]{
+	width:130px;
+	height:48px;
+	background:#EB2D2D;
+	font-size:24px;
+	color:white;
+	font-style:italic;
+	border:0;
+	vertical-align:bottom;
+	margin-left:30px;
+	
+	
+}
+
+section.servicos .todos-servicos-2{
+	width:50%;
+	background-color:#EB2D2D;
+	padding:90px 70px;
+	
+}
+
+section.servicos .todos-servicos-2 .servicos-single{
+	max-width:596px;
+	margin-bottom:30px;
+	
+}
+
+section.servicos .todos-servicos-2 .servicos-single h2{
+	font-size:35px;
+	color:white;
+	font-style:italic;
+	text-transform:uppercase;
+	margin:30px 0;
+}
+section.servicos .todos-servicos-2 .servicos-single p{
+	color:white;
+	font-size:25px;
+	font-style:italic;
+}
+
+
+section.servicos .todos-servicos-2 .arrows{
+	float:left;
+}
+section.servicos .todos-servicos-2 .arrows img{
+	margin:0 15px;
+	cursor:pointer;
+}
+
+section.servicos .todos-servicos-2 .depoimentos{
+	float:left;
+}
+section.servicos .todos-servicos-2 .depoimentos p{
+	color:black;
+	font-size:24px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-style:italic;
+	
+}
+
+
+
+
+
 /**RESPOSNIVO**/
 
 @media screen and (max-width: 1535px){
@@ -405,6 +520,59 @@ section.banner .banner-main .text-banner p{
 		text-align:left;
 		
 	}
+	
+	section.servicos .todos-servicos-2 .arrows{
+	width:20%;
+	float:left;
+}
+	
+	
+	
+}
+
+
+@media screen and (max-width: 1229px){
+	
+	section.servicos .todos-servicos-1{
+	padding:90px 20px;
+	text-align:left;
+}
+section.servicos .todos-servicos-1 .servicos-single{
+	display:block;
+}
+section.servicos .todos-servicos-1 .servicos-single input[type=button]{
+	display:block;
+	width:100%;
+	max-width:130px;
+	height:48px;
+	background:#EB2D2D;
+	font-size:24px;
+	color:white;
+	font-style:italic;
+	border:0;
+	vertical-align:bottom;
+	margin:20px 0;;
+	
+	
+}
+	
+	section.servicos .todos-servicos-2 .arrows{
+		float:none;
+		width:100%;
+		text-align:center;
+		margin:15px 0;
+	}
+section.servicos .todos-servicos-2 .arrows img{
+		margin:0 15px;
+		cursor:pointer;
+	}
+
+
+section.servicos .todos-servicos-2 .depoimentos {
+	float:none;
+	text-align:center;
+}
+
 }
 
 
@@ -474,6 +642,81 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 }
 }
 
+@media screen and  (max-width: 854px ){
+	
+	section.montra .vitrine .text-carros{
+		width:100%;
+		height:163px;
+	}
+	
+		
+	Section.servicos{
+		width:100%;
+		display:flex;
+		flex-direction:column;
+	}
+
+	section.servicos .todos-servicos-1{
+		width:100%;
+		padding:90px 0 ;
+		background-color:#242424;
+		text-align:center;
+	}
+	section.servicos .todos-servicos-1 .servicos-single{
+		display:inline-block;
+
+	}
+	section.servicos .todos-servicos-1 .servicos-single h2{
+		text-align:left;
+		font-size:35px;
+		
+	}
+	
+	section.servicos .todos-servicos-1 .servicos-single input[type=button]{
+		margin-left:30px;
+	}
+	
+	
+		
+	section.servicos .todos-servicos-2{
+		width:100%;
+		background-color:#EB2D2D;
+		padding:90px 70px;
+		
+	}
+
+	section.servicos .todos-servicos-2 .arrows{
+		float:left;
+		width:100%;
+		display:inline-block;
+	}
+	section.servicos .todos-servicos-2 .arrows img{
+		margin:0 15px;
+		cursor:pointer;
+	}
+
+	section.servicos .todos-servicos-2 .depoimentos{
+		float:none;
+		text-align:center;
+		
+	}
+	section.servicos .todos-servicos-2 .depoimentos p{
+		display:inline-block;
+		color:black;
+		font-size:24px;
+		text-transform:uppercase;
+		font-weight:bold;
+		font-style:italic;
+		
+	}
+		
+		
+		
+	
+}
+
+
+
 @media screen and (max-width:713px){
 		section.banner .banner-main {
 		width:100%;
@@ -488,31 +731,31 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	}
 
 
-section.banner .banner-main .text-banner{
-	width:400px;
-}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
-		position:relative;
-		left:0;
-		top:0;
-		background-size:60% 100%;
-		padding:20px 10px;
+	section.banner .banner-main .text-banner{
+		width:400px;
 	}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
-		position:relative;
-		left:-9px;
-		top:0;
-		background-size:50% 100%;
-		padding:20px 10px;
-	}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
-		position:relative;
-		left:-16px;
-		background-size:35% 100%;
-		padding:15px 10px;
-		
-		
-	}
+	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
+			position:relative;
+			left:0;
+			top:0;
+			background-size:60% 100%;
+			padding:20px 10px;
+		}
+	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
+			position:relative;
+			left:-9px;
+			top:0;
+			background-size:50% 100%;
+			padding:20px 10px;
+		}
+	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
+			position:relative;
+			left:-16px;
+			background-size:35% 100%;
+			padding:15px 10px;
+			
+			
+		}
 
 
 	section.banner .banner-main .text-banner p{
@@ -552,13 +795,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
 
 }
 
-@media screen and  (max-width: 854px ){
-	
-	section.montra .vitrine .text-carros{
-		width:100%;
-		height:163px;
-	}
-}
+
 
 @media screen and (max-width:580px ){
 	
@@ -609,29 +846,213 @@ section.montra .vitrine .botao {
 	margin:20px 0;
 
 	}
+	
+	
+	
 }
 
-@media screen and (max-width:431px){
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
-	background-size:72% 100%;
-	
-	
-	}
+@media screen and (max-width: 417px){
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+background-size:97% 100%;
+
+
+}
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+font-size:12px;
+}
+
+section.banner .banner-main .text-banner{
+		width:286px;
+}
+section.banner .banner-main .text-banner p{
+	font-size:20px;
+}
+
+section.servicos .todos-servicos-1 {
+padding: 90px 6%;
+
+}
+section.servicos .todos-servicos-1 .servicos-single h2{
+	text-align:left;
+	font-size:25px;
+	
+}
+
+section.servicos .todos-servicos-1 .servicos-single ul li{
+		font-size:18px;
+	}
+	
+	
+	
+section.servicos .todos-servicos-2{
+	padding:90px 4%;
+	
+}
+
+section.servicos .todos-servicos-2 .servicos-single{
+	max-width:596px;
+	margin-bottom:30px;
+	
+}
+
+section.servicos .todos-servicos-2 .servicos-single h2{
+	font-size:35px;
+	color:white;
+	font-style:italic;
+	text-transform:uppercase;
+	margin:30px 0;
+}
+section.servicos .todos-servicos-2 .servicos-single p{
+	color:white;
+	font-size:18px;
+	font-style:italic;
+}
+
+
+section.servicos .todos-servicos-2 .arrows{
+	float:left;
+}
+section.servicos .todos-servicos-2 .arrows img{
+	margin:0 15px;
+	cursor:pointer;
+}
+
+section.servicos .todos-servicos-2 .depoimentos{
+	float:none;
+}
+section.servicos .todos-servicos-2 .depoimentos p{
+	font-size:18px;
+		
+	}
+}
+	
+	
+
+
+
+@media screen and ( max-width:300px ){
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	background-size:72% 100%;
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+font-size:12px;
+}
+
+
+
+section.banner .banner-main .text-banner{
+		width:220px;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
+		width:250px;
+		position:relative;
+		left:0;
+		top:0;
+		background-size:60% 80%;
+		padding:20px 10px;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
+		width:250px;
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
+		width:250px;
+		
+	}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+		background-size:100% 100%;
+	}
+
+section.banner .banner-main .text-banner p{
 	font-size:12px;
+	font-weight:normal;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	width:280px;
+	position:relative;
+	top:0;
+	left:-16px;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+section.servicos .todos-servicos-1 {
+padding:90px 6%;
+
+}
+section.servicos .todos-servicos-1 .servicos-single h2{
+	text-align:left;
+	font-size:25px;
+	
+}
+
+section.servicos .todos-servicos-1 .servicos-single ul li{
+		font-size:18px;
 	}
 	
-section.montra .vitrine{
-	width:100%;
-	padding:0 10px;
-	}
+
+	section.servicos .todos-servicos-2{
+		padding:90px 4%;
+	
+}
+
+section.servicos .todos-servicos-2 .servicos-single{
+	max-width:596px;
+	margin-bottom:30px;
+}
+
+section.servicos .todos-servicos-2 .servicos-single h2{
+	font-size:35px;
+	color:white;
+	font-style:italic;
+	text-transform:uppercase;
+	margin:30px 0;
+}
+section.servicos .todos-servicos-2 .servicos-single p{
+	color:white;
+	font-size:18px;
+	font-style:italic;
+}
+
+
+section.servicos .todos-servicos-2 .arrows{
+	float:left;
+}
+section.servicos .todos-servicos-2 .arrows img{
+	margin:0 15px;
+	cursor:pointer;
+}
+
+section.servicos .todos-servicos-2 .depoimentos{
+	float:none;
+}
+section.servicos .todos-servicos-2 .depoimentos p{
+	font-size:18px;
 	
 	
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1) p,
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2) p,
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3) p {
-		width:50%;
-	}
+}
+}
+
+@media screen and (max-width: 280px){
+	
+	
+section.banner .banner-main .text-banner{
+		width:180px;
+}
+	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	width:240px;
+	position:relative;
+	top:0;
+	left:-16px;
+}
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+	font-size:10px;
+	font-weight:bold;
+}
+
 
 }
