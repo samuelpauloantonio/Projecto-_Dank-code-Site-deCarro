@@ -164,7 +164,8 @@ section.banner .banner-main{
 }
 
 section.banner .banner-main .text-banner{
-	width:500px;
+	width:100%;
+	max-width:500px;
 	float:left;
 	height:400px;
 	clear:both;
@@ -172,6 +173,7 @@ section.banner .banner-main .text-banner{
 }
 
 section.banner .banner-main .text-banner .text-banner-single{
+	width:100%;
 	background-image:url(../img/box-text.png);
 	background-position:left;
 	background-repeat:no-repeat;
@@ -195,9 +197,10 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 }
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
+	width:100%;
 	color:black;
 	font-size:20px;
-	text-align:left;
+
 }
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
 	position:relative;
@@ -224,7 +227,6 @@ section.banner .banner-main .text-banner p{
 }
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1) p{
-	position:relative;
 	background-size:100%;
 	
 	
@@ -270,6 +272,7 @@ section.montra .text-montra h2{
 	background-color:white;
 	position:relative;
 	display:inline-block;
+	margin-right:-4px;
 	text-align:center;
 	font-size:27px;
 	text-transform:uppercase;
@@ -469,9 +472,104 @@ section.servicos .todos-servicos-2 .depoimentos p{
 	
 }
 
+section.contacto{
+	width:100%;
+	margin-bottom:60px;
+	margin-top:127px;
+	padding:0 2%;
+}
+section.contacto .container {
+	max-width:768px;
+	
+}
+
+section.contacto .container .text-linha{
+	position:relative;
+	top:0;
+	left:0;
+	text-align:center;
+}
 
 
+section.contacto .container .text-linha .linha{
+	width:100%;
+	border:1px solid black;
+	position:absolute;
+	left:0;
+	top:23px;
+}
 
+section.contacto .container .text-linha h2{
+	position: relative;
+    display: inline-block;
+	margin-right:-4px;
+    background: rgb(255, 255, 255);
+    padding: 0 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+section.contacto .container  form{
+	width:100%;
+}
+
+section.contacto .container  form .w100{
+	width:100%;
+	margin:20px 0;
+}
+
+section.contacto .container  form .w100 textarea{
+	width:100%;
+	height:196px;
+	padding:20px 30px;
+}
+section.contacto .container  form .w50{
+	width:50%;
+	float:left;
+	margin:20px 0;
+}
+
+section.contacto .container  form .w100 input[type=text]{
+	width:100%;
+	height:44px;
+	padding:28px 30px;
+}
+section.contacto .container  form .w50 input[type=email],section.contacto .container  form .w50 input[type=tel]{
+	width:100%;
+	height:44px;
+	padding:28px 30px;
+}
+section.contacto .container  form .w50:nth-of-type(2){
+	padding-right:10px;
+}
+section.contacto .container  form .w50:nth-of-type(3){
+	padding-left:10px;
+}
+
+section.contacto .container form input,textarea{
+	font-size:30px;
+	border:2px solid #ddd;
+}
+
+section.contacto .container form .bt{
+	width:100%;
+	margin-top:23px;
+	text-align:center;
+}
+section.contacto .container form .bt input[type=submit]{
+	max-width:96px;
+	height:49px;
+	background:#EB2D2D;
+	font-size:24px;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	border:none;
+	padding:15px 15px;
+	line-height:0;
+}
 
 /**RESPOSNIVO**/
 
@@ -486,6 +584,7 @@ section.servicos .todos-servicos-2 .depoimentos p{
 	background-repeat:no-repeat;
 	padding-top:139px;
 	padding-left:68px;
+
 }
 
 
@@ -530,7 +629,6 @@ section.banner .banner-main .text-banner p{
 	
 }
 
-
 @media screen and (max-width: 1229px){
 	
 	section.servicos .todos-servicos-1{
@@ -555,6 +653,8 @@ section.servicos .todos-servicos-1 .servicos-single input[type=button]{
 	
 	
 }
+
+
 	
 	section.servicos .todos-servicos-2 .arrows{
 		float:none;
@@ -590,7 +690,7 @@ section.servicos .todos-servicos-2 .depoimentos {
 	}
 
 section.banner .banner-main .text-banner{
-	width:500px;
+	max-width:500px;
 	height:250px;
 	
 }
@@ -732,7 +832,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 
 
 	section.banner .banner-main .text-banner{
-		width:400px;
+		max-width:400px;
 	}
 	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
 			position:relative;
@@ -847,6 +947,40 @@ section.montra .vitrine .botao {
 
 	}
 	
+section.contacto .container  form .w50{
+	width:100%;
+	float:none;
+	margin:20px 0;
+	}
+section.contacto .container  form .w50:nth-of-type(2){
+	padding-right:0;
+}
+section.contacto .container  form .w50:nth-of-type(3){
+	padding-left:0;
+}
+
+section.contacto .container .text-linha h2{
+    font-size: 25px;
+	position:relative;
+	top:6px;
+	left:0;
+    
+}
+
+section.contacto .container form input,textarea{
+	font-size:20px;
+	border:2px solid #ddd;
+}
+
+
+section.contacto .container .text-linha h2{
+	
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: normal;
+	left:14px;
+}
+
 	
 	
 }
@@ -863,10 +997,11 @@ font-size:12px;
 }
 
 section.banner .banner-main .text-banner{
-		width:286px;
+	max-with:280px;
 }
 section.banner .banner-main .text-banner p{
 	font-size:20px;
+	padding-left:5px;
 }
 
 section.servicos .todos-servicos-1 {
@@ -925,134 +1060,39 @@ section.servicos .todos-servicos-2 .depoimentos p{
 	font-size:18px;
 		
 	}
+	
+	html{
+		overflow-x:hidden;
+	}
 }
 	
-	
-
-
-
 @media screen and ( max-width:300px ){
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
-	background-size:72% 100%;
-}
+
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
 font-size:12px;
+
 }
-
-
-
-section.banner .banner-main .text-banner{
-		width:220px;
-}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
-		width:250px;
-		position:relative;
-		left:0;
-		top:0;
-		background-size:60% 80%;
-		padding:20px 10px;
-	}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
-		width:250px;
-	}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
-		width:250px;
-		
-	}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
-		background-size:100% 100%;
-	}
 
 section.banner .banner-main .text-banner p{
-	font-size:12px;
-	font-weight:normal;
-}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
-	width:280px;
-	position:relative;
-	top:0;
-	left:-16px;
-}
-section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
-	font-size:12px;
-	font-weight:bold;
+	font-size:16px;
 }
 
 
-section.servicos .todos-servicos-1 {
-padding:90px 6%;
 
 }
-section.servicos .todos-servicos-1 .servicos-single h2{
-	text-align:left;
-	font-size:25px;
-	
-}
 
-section.servicos .todos-servicos-1 .servicos-single ul li{
-		font-size:18px;
-	}
-	
-
-	section.servicos .todos-servicos-2{
-		padding:90px 4%;
-	
-}
-
-section.servicos .todos-servicos-2 .servicos-single{
-	max-width:596px;
-	margin-bottom:30px;
-}
-
-section.servicos .todos-servicos-2 .servicos-single h2{
-	font-size:35px;
-	color:white;
-	font-style:italic;
-	text-transform:uppercase;
-	margin:30px 0;
-}
-section.servicos .todos-servicos-2 .servicos-single p{
-	color:white;
-	font-size:18px;
-	font-style:italic;
-}
-
-
-section.servicos .todos-servicos-2 .arrows{
-	float:left;
-}
-section.servicos .todos-servicos-2 .arrows img{
-	margin:0 15px;
-	cursor:pointer;
-}
-
-section.servicos .todos-servicos-2 .depoimentos{
-	float:none;
-}
-section.servicos .todos-servicos-2 .depoimentos p{
-	font-size:18px;
-	
-	
-}
-}
 
 @media screen and (max-width: 280px){
-	
-	
-section.banner .banner-main .text-banner{
-		width:180px;
+	section.banner .banner-main .text-banner p{
+	font-size:14px;
 }
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
-	width:240px;
-	position:relative;
-	top:0;
-	left:-16px;
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
+	display:none
 }
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
-	font-size:10px;
-	font-weight:bold;
-}
+display:none;
 
+}
 
 }
