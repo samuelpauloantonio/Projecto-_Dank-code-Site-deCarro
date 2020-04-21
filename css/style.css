@@ -47,11 +47,11 @@ header nav.menu-desktop ul li {
 	float:left;
 	padding:0 20px;
 }
-
 header nav.menu-desktop ul li:first-child a{
 	color: rgb(255, 3, 3);
 	border-bottom: 3px solid rgb(75, 174, 206);
 }
+
 
 header nav.menu-desktop ul li a{
 	font-size:18px;
@@ -180,6 +180,7 @@ section.banner .banner-main .text-banner .text-banner-single{
 	background-size:100% 100%;
 	padding:20px 0;
 	margin:20px 0;
+	cursor:pointer;
 	
 }
 
@@ -421,6 +422,7 @@ section.servicos .todos-servicos-1 .servicos-single input[type=button]{
 	border:0;
 	vertical-align:bottom;
 	margin-left:30px;
+	cursor:pointer;
 	
 	
 }
@@ -571,6 +573,53 @@ section.contacto .container form .bt input[type=submit]{
 	line-height:0;
 }
 
+footer{
+	width:100%;
+	padding:40px 2%;
+	background-color:rgb(37,37,37);
+}
+
+footer nav ul{
+	list-style:none;
+	float:left;
+}
+
+footer nav ul li{
+	float:left;
+	margin:0 20px;
+	
+}
+footer nav ul li a{
+	text-decoration:none;
+	font-size:17px;
+	font-style:normal;
+	color:white;
+	text-transform:uppercase;
+	
+}
+
+
+footer nav ul li a:hover{
+	border-bottom:4px solid lightblue;
+	color:#EB2D2D;
+}
+footer p{
+	float:right;
+	font-size:19px;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /**RESPOSNIVO**/
 
 @media screen and (max-width: 1535px){
@@ -656,7 +705,7 @@ section.servicos .todos-servicos-1 .servicos-single input[type=button]{
 
 
 	
-	section.servicos .todos-servicos-2 .arrows{
+section.servicos .todos-servicos-2 .arrows{
 		float:none;
 		width:100%;
 		text-align:center;
@@ -673,6 +722,20 @@ section.servicos .todos-servicos-2 .depoimentos {
 	text-align:center;
 }
 
+
+footer nav ul,footer nav ul li{
+	width:100%;
+	text-align:center;
+	float:none;
+	padding:10px 0;
+	margin:0;
+}
+
+footer  p{
+	float:none;
+	text-align:center;
+	margin:10p 0;
+}
 }
 
 
@@ -811,8 +874,10 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	}
 		
 		
-		
-	
+	footer nav ul li a{
+		font-size:16px;
+		font-style:normal;
+	}
 }
 
 
@@ -892,6 +957,9 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 		
 	}
 	
+	footer nav ul {
+		display:none;
+	}
 
 }
 
