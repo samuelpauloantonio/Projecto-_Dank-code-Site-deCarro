@@ -1091,6 +1091,50 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	}
 }
 
+@media screen and (max-width: 758px){
+	section.vitrine-venda  .container .text-venda h2{
+		font-size:28px;
+	}
+
+	section.vitrine-venda .container .vitrine-main aside {
+		width: 100%;
+		float: none;
+		margin-bottom: 50px;
+		padding: 0 5%;
+	}
+
+.vitrine-main .montra-2{
+		width: 100%;
+		float:right;
+	}
+
+.container .vitrine-main aside .barra-preco{
+	margin-bottom:60px ;
+}
+.container .vitrine-main aside .barra-preco .barra-main2{
+		max-width:100%;
+	}
+
+	aside .filtre-ano-main{
+		width:100%;
+		text-align:center;
+	}
+
+	aside .filtre-ano-main .filtre-ano{
+		max-width:320px;
+		display: inline-block;
+	}
+	aside .filtre-ano-main .filtre-ano h2{
+		text-align: left;
+		font-style: normal;
+	}
+
+	aside .filtre-ano-main .filtre-ano form{
+		text-align:left;
+	}
+}
+
+
 
 
 @media screen and (max-width:713px) {
