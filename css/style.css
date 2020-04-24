@@ -47,10 +47,7 @@ header nav.menu-desktop ul li {
 	float:left;
 	padding:0 20px;
 }
-header nav.menu-desktop ul li:first-child a{
-	color: rgb(255, 3, 3);
-	border-bottom: 3px solid rgb(75, 174, 206);
-}
+
 
 
 header nav.menu-desktop ul li a{
@@ -61,6 +58,12 @@ header nav.menu-desktop ul li a{
 	font-weight:bold;
 	text-decoration:none;
 }
+
+header.index nav.menu-desktop ul li:nth-of-type(1) a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+
 /**Menu-mobile**/
 
 header .container .menu-mobile{
@@ -106,7 +109,7 @@ header .menu-mobile nav ul {
 	left:0;
 	top:122px;
 	background-color:rgba(255, 255, 255, 0.863);
-	
+
 }
 
 
@@ -118,7 +121,7 @@ header .menu-mobile nav ul{
 header .menu-mobile nav ul li{
 	display:block;
 	padding:6px 0;
-	
+
 }
 
 header .menu-mobile nav ul li a{
@@ -128,8 +131,8 @@ header .menu-mobile nav ul li a{
 	font-size:13px;
 	font-weight:bold;
 	color:brown;
-	
-	
+
+
 }
 
 header .menu-mobile nav ul li a:hover{
@@ -138,7 +141,7 @@ header .menu-mobile nav ul li a:hover{
 
 
 
-/*****/ 
+/*****/
 
 
 
@@ -169,7 +172,7 @@ section.banner .banner-main .text-banner{
 	float:left;
 	height:400px;
 	clear:both;
-	
+
 }
 
 section.banner .banner-main .text-banner .text-banner-single{
@@ -181,7 +184,7 @@ section.banner .banner-main .text-banner .text-banner-single{
 	padding:20px 0;
 	margin:20px 0;
 	cursor:pointer;
-	
+
 }
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
@@ -194,7 +197,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	position:relative;
 	top:0;
 	left:-54px;
-	
+
 }
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
@@ -215,7 +218,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
 	left:-33px;
 	background-size:50% 100%;
 	padding:20px 0;
-	
+
 }
 
 section.banner .banner-main .text-banner p{
@@ -224,13 +227,13 @@ section.banner .banner-main .text-banner p{
 	text-transform:uppercase;
 	padding-left:60px;
 	font-style:italic;
-	
+
 }
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1) p{
 	background-size:100%;
-	
-	
+
+
 }
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2) p{
 	position:relative;
@@ -240,7 +243,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2) p{
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3) p{
 	position:relative;
 	left:0;
-	
+
 }
 /****/
 
@@ -267,7 +270,7 @@ section.montra .text-montra .linha{
 	position:absolute;
 	left:0;
 	top:15px;
-	
+
 }
 section.montra .text-montra h2{
 	background-color:white;
@@ -298,8 +301,8 @@ section.montra .vitrine  .carros-img{
 section.montra .vitrine .text-carros{
 	width:100%;
 	height:90px;
-	
-	
+
+
 }
 section.montra .vitrine .text-carros h2{
 	width:100%;
@@ -317,7 +320,7 @@ section.montra .vitrine .text-carros p {
 	font-size:19px;
 	text-align:left;
 	font-style:italic;
-	
+
 }
 
 section.montra .vitrine .botao {
@@ -346,28 +349,34 @@ section.montra .vitrine .botao a {
 }
 
 
-section.montra .vitrine:nth-of-type(2) .carros-img{
+section.montra .vitrine:nth-of-type(1) .carros-img{
 	background-image:url(../img/carro-1.jpg);
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	background-position:center;
-	
+
 }
-section.montra .vitrine:nth-of-type(3) .carros-img{
+section.montra .vitrine:nth-of-type(2) .carros-img{
 	background-image:url(../img/carro-2.png);
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	background-position:center;
-	
+
 }
-section.montra .vitrine:nth-of-type(4) .carros-img{
+section.montra .vitrine:nth-of-type(3) >.carros-img{
 	background-image:url(../img/carro-3.png);
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	background-position:center;
-	
-}
 
+}
+section.montra .vitrine:nth-of-type(4) >.carros-img{
+	background-image:url(../img/carro-1.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:center;
+
+}
 
 
 Section.servicos{
@@ -404,7 +413,7 @@ section.servicos .todos-servicos-1 .servicos-single li {
 	color:white;
 	font-size:24px;
 	padding:5px 0;
-	
+
 }
 
 
@@ -423,21 +432,21 @@ section.servicos .todos-servicos-1 .servicos-single input[type=button]{
 	vertical-align:bottom;
 	margin-left:30px;
 	cursor:pointer;
-	
-	
+
+
 }
 
 section.servicos .todos-servicos-2{
 	width:50%;
 	background-color:#EB2D2D;
 	padding:90px 70px;
-	
+
 }
 
 section.servicos .todos-servicos-2 .servicos-single{
 	max-width:596px;
 	margin-bottom:30px;
-	
+
 }
 
 section.servicos .todos-servicos-2 .servicos-single h2{
@@ -471,7 +480,7 @@ section.servicos .todos-servicos-2 .depoimentos p{
 	text-transform:uppercase;
 	font-weight:bold;
 	font-style:italic;
-	
+
 }
 
 section.contacto{
@@ -482,7 +491,7 @@ section.contacto{
 }
 section.contacto .container {
 	max-width:768px;
-	
+
 }
 
 section.contacto .container .text-linha{
@@ -587,7 +596,7 @@ footer nav ul{
 footer nav ul li{
 	float:left;
 	margin:0 20px;
-	
+
 }
 footer nav ul li a{
 	text-decoration:none;
@@ -595,7 +604,7 @@ footer nav ul li a{
 	font-style:normal;
 	color:white;
 	text-transform:uppercase;
-	
+
 }
 
 
@@ -612,8 +621,205 @@ footer p{
 
 
 
+/**PAGINA DE VENDAS**/
+
+header.vendas nav.menu-desktop ul li:nth-of-type(2) a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+
+.linha-red{
+	width:100%;
+	height:3px;
+	border:3px solid red;
+
+}
+
+section.vitrine-venda{
+	width:100%;
+	min-height:90%;
+	margin-top:50px;
+}
+
+section.vitrine-venda .container .text-venda{
+	position:relative;
+	left:0;
+	top:0;
+	text-align:center;
+	margin-bottom:85px;
+
+}
+
+section.vitrine-venda .container .text-venda .linha{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:15px;
+	border:1px solid black;
+}
+
+section.vitrine-venda .container .text-venda  h2{
+	display:inline-block;
+	position:relative;
+	left:0;
+	top:0;
+	background-color:white;
+	margin-right:-4px;
+	padding:0 20px;
+	text-transform:uppercase;
+	font-size:35px;
+	font-style:italic;
+
+}
+
+section.vitrine-venda .container .vitrine-main{
+	width:100%;
+
+}
+
+section.vitrine-venda .container .vitrine-main aside{
+	width:28%;
+	float:left;
+	padding:0 2%;
+
+}
+aside .barra-preco .barra-main{
+	width:100%;
+}
+section.vitrine-venda .container .vitrine-main aside .barra-preco h3{
+	font-size:24px;
+	color:black;
+	font-style:italic;
+	margin-bottom:20px;
+	-webkit-margin-bottom-collapse: inherit;
+}
+
+.container .vitrine-main aside .barra-preco .barra-main2{
+	position:relative;
+	width:100%;
+	max-width:363px;
+	height:20px;
+	background:white;
+	border:2px solid #ccc;
+	border-radius:20px;
+	cursor:pointer;
 
 
+
+
+}
+.container .vitrine-main aside .barra-preco .barra-main2 .percentagem {
+	position:absolute;
+	left:-2px;
+	top:-2px;
+	width:50px;
+	height:20px;
+	background:linear-gradient(to bottom, rgb(255,255,255),rgb(200,200,200));
+	border-radius:20px;
+	border:1px solid #ccc;
+}
+
+.container .vitrine-main aside .barra-preco .barra-main2 .percentagem .lavanca{
+	width:23px;
+	height:25px;
+	background:linear-gradient(to bottom, rgb(255,255,255),rgb(160,160,160));
+	position:absolute;
+	left:40px;
+	top:-3px;
+	border-radius:30%;
+	border:1px solid rgb(100,100,100);
+
+}
+
+.vitrine-main .montra-2{
+	width:72%;
+	float:right;
+
+}
+
+aside .barra-preco{
+	margin-bottom:70px;
+}
+aside .barra-preco .barra-main .preco-total{
+	width:100%;
+}
+aside .barra-preco .barra-main .preco-total p{
+	color:black;
+	font-size:16px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+aside .barra-preco .barra-main .preco-total p:nth-of-type(1){
+	float:left;
+}
+aside .barra-preco .barra-main .preco-total{
+	margin-top: 10px;
+}
+aside .barra-preco .barra-main .preco-total p:nth-of-type(2){
+	float:right;
+	padding-right:24px;
+}
+
+
+aside  .filtre-ano h2{
+	font-size:24px;
+	color:black;
+	font-style:italic;
+	margin-bottom:30px;
+}
+
+
+aside .filtre-ano form{
+	width:100%;
+}
+
+aside .filtre-ano form input[type=checkbox]{
+	display:none;
+}
+aside .filtre-ano form{
+	margin:8px 0;
+}
+aside .filtre-ano form span{
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+	vertical-align:top;
+	margin-left:10px;
+}
+
+aside .filtre-ano form label{
+	width: 16px;
+	height:16px;
+	border:1px solid #cccccc;
+	display: inline-block;
+	cursor:pointer;
+	position:relative;
+}
+aside .filtre-ano form label > .circle{
+	width: 8px;
+	height: 8px;
+	background: black;
+	border-radius: 4px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	display: none;
+}
+aside .filtre-ano form input[type=checkbox]:checked + label > .circle{
+	display:block;
+}
+
+.vitrine-main .montra-2{
+	margin-top: 0;
+	margin-bottom: 46px;
+}
+
+.vitrine-main .montra-2 .vitrine{
+	margin-top: 0;
+	padding:0 20px;
+}
+/****/
 
 
 
@@ -656,7 +862,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
 		left:-44px;
 		background-size:35% 100%;
 		padding:20px 0;
-		
+
 	}
 
 section.banner .banner-main .text-banner p{
@@ -666,20 +872,20 @@ section.banner .banner-main .text-banner p{
 		padding-left:44px;
 		font-style:italic;
 		text-align:left;
-		
+
 	}
-	
+
 	section.servicos .todos-servicos-2 .arrows{
 	width:20%;
 	float:left;
 }
-	
-	
-	
+
+
+
 }
 
 @media screen and (max-width: 1229px){
-	
+
 	section.servicos .todos-servicos-1{
 	padding:90px 20px;
 	text-align:left;
@@ -699,12 +905,12 @@ section.servicos .todos-servicos-1 .servicos-single input[type=button]{
 	border:0;
 	vertical-align:bottom;
 	margin:20px 0;;
-	
-	
+
+
 }
 
 
-	
+
 section.servicos .todos-servicos-2 .arrows{
 		float:none;
 		width:100%;
@@ -734,8 +940,12 @@ footer nav ul,footer nav ul li{
 footer  p{
 	float:none;
 	text-align:center;
-	margin:10p 0;
-}
+	margin:10px 0;
+	}
+	section.montra-2  .vitrine .text-carros{
+		height:150px;
+		transition:1s
+	}
 }
 
 
@@ -755,7 +965,7 @@ footer  p{
 section.banner .banner-main .text-banner{
 	max-width:500px;
 	height:250px;
-	
+
 }
 
 section.banner .banner-main .text-banner .text-banner-single{
@@ -765,8 +975,8 @@ section.banner .banner-main .text-banner .text-banner-single{
 		background-size:100% 100%;
 		padding:20px 0;
 		margin:20px 0;
-		
-	}	
+
+	}
 
 section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
 		position:relative;
@@ -787,7 +997,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
 		left:0;
 		background-size:35% 100%;
 		padding:20px 10px;
-		
+
 	}
 
 
@@ -801,18 +1011,19 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	position:relative;
 	top:0;
 	left:-14px;
-	
+
 }
 }
 
 @media screen and  (max-width: 854px ){
-	
+
 	section.montra .vitrine .text-carros{
 		width:100%;
 		height:163px;
+		transition: 0.60s;
 	}
-	
-		
+
+
 	Section.servicos{
 		width:100%;
 		display:flex;
@@ -832,20 +1043,20 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	section.servicos .todos-servicos-1 .servicos-single h2{
 		text-align:left;
 		font-size:35px;
-		
+
 	}
-	
+
 	section.servicos .todos-servicos-1 .servicos-single input[type=button]{
 		margin-left:30px;
 	}
-	
-	
-		
+
+
+
 	section.servicos .todos-servicos-2{
 		width:100%;
 		background-color:#EB2D2D;
 		padding:90px 70px;
-		
+
 	}
 
 	section.servicos .todos-servicos-2 .arrows{
@@ -861,7 +1072,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	section.servicos .todos-servicos-2 .depoimentos{
 		float:none;
 		text-align:center;
-		
+
 	}
 	section.servicos .todos-servicos-2 .depoimentos p{
 		display:inline-block;
@@ -870,10 +1081,10 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 		text-transform:uppercase;
 		font-weight:bold;
 		font-style:italic;
-		
+
 	}
-		
-		
+
+
 	footer nav ul li a{
 		font-size:16px;
 		font-style:normal;
@@ -882,91 +1093,107 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 
 
 
-@media screen and (max-width:713px){
-		section.banner .banner-main {
-		width:100%;
-		height:500px;
-		background-color:black;
-		background-image:url(../img/car.png);
-		background-size:cover;
-		background-position:50% 100%;
-		background-repeat:no-repeat;
-		padding-top:8px;
-		padding-left:20px;
-	}
+@media screen and (max-width:713px) {
+section.banner .banner-main {
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	background-image: url(../img/car.png);
+	background-size: cover;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	padding-top: 8px;
+	padding-left: 20px;
+}
 
 
-	section.banner .banner-main .text-banner{
-		max-width:400px;
-	}
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1){
-			position:relative;
-			left:0;
-			top:0;
-			background-size:60% 100%;
-			padding:20px 10px;
-		}
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2){
-			position:relative;
-			left:-9px;
-			top:0;
-			background-size:50% 100%;
-			padding:20px 10px;
-		}
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3){
-			position:relative;
-			left:-16px;
-			background-size:35% 100%;
-			padding:15px 10px;
-			
-			
-		}
+section.banner .banner-main .text-banner {
+	max-width: 400px;
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(1) {
+	position: relative;
+	left: 0;
+	top: 0;
+	background-size: 60% 100%;
+	padding: 20px 10px;
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(2) {
+	position: relative;
+	left: -9px;
+	top: 0;
+	background-size: 50% 100%;
+	padding: 20px 10px;
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(3) {
+	position: relative;
+	left: -16px;
+	background-size: 35% 100%;
+	padding: 15px 10px;
 
 
-	section.banner .banner-main .text-banner p{
-		color:white;
-		font-size:25px;
-		text-transform:uppercase;
-		padding-left:20px;
-		font-style:italic;
+}
 
-		
-	}
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
-		position:relative;
-		top:0;
-		left:-16px;
-	}
-	section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p{
-		font-size:17px;
-		font-weight:bold;
-	}
 
-	header{
-		padding:10px 20px;
-		display:inline-block;
-	}
-	header .container nav.menu-desktop{
-		display:none;
-		
-	}
-	
-	
-	header .container .menu-mobile{
-		display:block;
-		
-	}
-	
-	footer nav ul {
-		display:none;
-	}
+section.banner .banner-main .text-banner p {
+	color: white;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	font-style: italic;
+
+
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) {
+	position: relative;
+	top: 0;
+	left: -16px;
+}
+
+section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4) p {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+header {
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+header .container nav.menu-desktop {
+	display: none;
+
+}
+
+
+header .container .menu-mobile {
+	display: block;
+
+}
+
+footer nav ul {
+	display: none;
+}
+
+section.montra-2 .vitrine .text-carros {
+	width: 100%;
+	height: 191px;
+	transition: 0.10s;
+}
+section.montra .vitrine .botao input[type=button] {
+	font-size: 18px;
+}
 
 }
 
 
 
+
 @media screen and (max-width:580px ){
-	
+
 	section.montra .vitrine:nth-of-type(2){
 		margin-top:46px;
 	}
@@ -977,7 +1204,7 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	margin-top:90px;
 	margin:0 auto;
 	}
-	
+
 	section.montra .vitrine  .carros-img{
 	width:100%;
 	padding-top:100%;
@@ -989,8 +1216,8 @@ section.montra .vitrine .text-carros{
 	width:100%;
 	height:auto;
 	text-align:center;
-	
-	
+
+
 }
 section.montra .vitrine .text-carros h2{
 	width:100%;
@@ -1006,7 +1233,7 @@ section.montra .vitrine .text-carros p {
 	font-size:19px;
 	text-align:center;
 	font-style:italic;
-	
+
 }
 section.montra .vitrine .botao {
 	width:100%;
@@ -1014,7 +1241,7 @@ section.montra .vitrine .botao {
 	margin:20px 0;
 
 	}
-	
+
 section.contacto .container  form .w50{
 	width:100%;
 	float:none;
@@ -1032,7 +1259,7 @@ section.contacto .container .text-linha h2{
 	position:relative;
 	top:6px;
 	left:0;
-    
+
 }
 
 section.contacto .container form input,textarea{
@@ -1042,15 +1269,14 @@ section.contacto .container form input,textarea{
 
 
 section.contacto .container .text-linha h2{
-	
+
     font-size: 18px;
     text-transform: uppercase;
     font-style: normal;
 	left:14px;
 }
 
-	
-	
+
 }
 
 @media screen and (max-width: 417px){
@@ -1079,24 +1305,24 @@ padding: 90px 6%;
 section.servicos .todos-servicos-1 .servicos-single h2{
 	text-align:left;
 	font-size:25px;
-	
+
 }
 
 section.servicos .todos-servicos-1 .servicos-single ul li{
 		font-size:18px;
 	}
-	
-	
-	
+
+
+
 section.servicos .todos-servicos-2{
 	padding:90px 4%;
-	
+
 }
 
 section.servicos .todos-servicos-2 .servicos-single{
 	max-width:596px;
 	margin-bottom:30px;
-	
+
 }
 
 section.servicos .todos-servicos-2 .servicos-single h2{
@@ -1126,14 +1352,14 @@ section.servicos .todos-servicos-2 .depoimentos{
 }
 section.servicos .todos-servicos-2 .depoimentos p{
 	font-size:18px;
-		
+
 	}
-	
+
 	html{
 		overflow-x:hidden;
 	}
 }
-	
+
 @media screen and ( max-width:300px ){
 
 
