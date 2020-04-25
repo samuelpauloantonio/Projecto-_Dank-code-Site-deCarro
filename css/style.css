@@ -825,27 +825,59 @@ aside .filtre-ano form input[type=checkbox]:checked + label > .circle{
 
 
 /**PAGINA DESCRIPTION-CARRO**/
+header.description nav.menu-desktop ul li:nth-of-type(2) a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+.linha-2{
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:80px auto;
+	max-width:90%;
+}
+.linha-2 .linha-main{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:23px;
+	border:1px solid black;
+}
+
+.linha-2  h2{
+	position:relative;
+	top:0;
+	left:0;
+	color:black;
+	font-size:35px;
+	display:inline-block;
+	margin-right:-4px;
+	background:white;
+	font-style:italic;
+	text-transform:uppercase;
+	padding: 0 20px;
+}
+
 section.description{
 	width:100%;
 	margin-top:50px;
 }
 section.description .container{
-	max-width:1000px;
+	max-width:1280px;
 }
 section.description .description-main{
 	width:100%;
 	display:flex;
 }
 section.description .description-main .description-img{
-	width:60%;
-	float:left;
+	width:70%;
 	padding:0 2%;
-	
+
 }
 
 section.description .description-main .description-img .img-main{
 	width:100%;
-	padding-top:80%;
+	padding-top:75%;
 	background-image:url(../img/carro-1.jpg);
 	background-size:cover;
 	background-position:center;
@@ -854,14 +886,15 @@ section.description .description-main .description-img .img-main{
 }
 
 section.description .description-main .description-aside{
-	width:40%;
+	width:30%;
 	padding:0 2%;
-	float:left;
-	
 }
  .description-aside .text-aside {
 	width:100%;
-	margin:25px 0;
+	margin-top: 52px;
+    margin-bottom: 25px;
+
+	
 	
  }
 section.description .description-main .description-aside .text-aside h2{
@@ -895,47 +928,107 @@ section.description .description-main .description-aside  .text-aside p{
 .description-aside .botao-aside input[type=button]:hover{
 	background-color:#8F1414;
 }
+section.description .description-main .description-img .nav-img-galeria{
+	width:100%;
+	padding:45px;
+	position:relative;
 
+
+}
 section.description .description-main .description-img .img-galeria{
 	width:100%;
 	overflow:hidden;
 	margin-top:15px;
-	padding:15px;
+
 }
  .description-main .description-img  .img-galeria .img-galeria-2{
 	 width:200%;
  }
+   .description-img  .img-galeria .img-galeria-2 .img-border {
+	    width:calc(33.3% *(100 / 200));
+		float:left;
+		padding:9px;
+
+   }
+   .description-img .img-galeria-2 .img-border:nth-of-type(1){
+	   background-color:rgb(210,210,210);
+   }
   .description-img  .img-galeria .img-galeria-2 .imgs-galeria{
-	  float:left;
-	  width:calc(33.3% *(100 / 200));
-	  padding-top:calc(33.3% * (100 / 200)* 0.6);
+	  padding-top:70%;
 	  background-color:red;
 	  background-position:center;
 	  background-size:cover;
-	  border:7px solid white;
 	  cursor:pointer;
   }
-   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(1){
+  
+ 
+   .description-img  .img-galeria .img-galeria-2 .img-border:nth-of-type(1) .imgs-galeria{
 	   background-image:url(../img/carro-1.jpg);
-   }
-   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(2){
-	   background-image:url(../img/carro-2.png);
-   }
-   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(3){
-	   background-image:url(../img/carro-3.png);
-   }
-    .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(4){
-	   background-image:url(../img/carro-1.jpg);
-   }
-   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(5){
-	   background-image:url(../img/carro-2.png);
-   }
-   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(6){
-	   background-image:url(../img/carro-3.png);
-   }
-   
-   
 
+   }
+   .description-img  .img-galeria .img-galeria-2 .img-border:nth-of-type(2) .imgs-galeria{
+	   background-image:url(../img/carro-2.png);
+   }
+   .description-img  .img-galeria .img-galeria-2 .img-border:nth-of-type(3) .imgs-galeria{
+	   background-image:url(../img/carro-3.png);
+   }
+    .description-img  .img-galeria .img-galeria-2 .img-boder:nth-of-type(4) .imgs-galeria{
+	   background-image:url(../img/carro-1.jpg);
+   }
+   .description-img  .img-galeria .img-galeria-2 .img-border:nth-of-type(5) .imgs-galeria{
+	   background-image:url(../img/carro-2.png);
+   }
+   .description-img  .img-galeria .img-galeria-2 .img-border:nth-of-type(6) .imgs-galeria{
+	   background-image:url(../img/carro-3.png);
+   }
+   
+   
+.description-img .nav-img-galeria .arrow-left{
+	position:absolute;
+	left:8px;
+	top:50%;
+	transform:translatY(-50%);
+	-ms-transform:translatY(-50%);
+	background-image:url(../img/arrow-left.png);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:28px;
+	height:28px;
+	cursor:pointer;
+}
+
+   
+.description-img .nav-img-galeria .arrow-right{
+	position:absolute;
+	right:8px;
+	top:50%;
+	-ms-transform:translatY(-50%);
+	transform:translatY(-50%);
+	background-image:url(../img/arrow-right.png);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:28px;
+	height:28px;
+	cursor:pointer;
+}
+.description-img .info-bread{
+	text-align:left;
+	padding:20px 0;
+}
+.description-img .info-bread a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+.description-img .info-bread a:last-of-type{
+	color:red;
+}
+.description-img .info-bread span{
+	padding:0 30px;
+	font-weight:bold;
+}
 
 
 
@@ -1248,6 +1341,25 @@ section.banner .banner-main .text-banner .text-banner-single:nth-of-type(4){
 	aside .filtre-ano-main .filtre-ano form{
 		text-align:left;
 	}
+	
+	section.description .description-main {
+		display:block;
+	}
+	section.description .description-main .description-img{
+	width:100%;
+	padding:0 2%;
+
+}
+section.description .description-main .description-aside {
+	width:100%;
+	text-align:center;
+}
+
+
+.description-aside .text-aside {
+	margin-top:29px;
+}
+
 }
 
 
@@ -1346,6 +1458,10 @@ section.montra-2 .vitrine .text-carros {
 section.montra .vitrine .botao input[type=button] {
 	font-size: 18px;
 }
+
+
+
+
 
 }
 
