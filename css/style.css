@@ -824,7 +824,123 @@ aside .filtre-ano form input[type=checkbox]:checked + label > .circle{
 
 
 
+/**PAGINA DESCRIPTION-CARRO**/
+section.description{
+	width:100%;
+	margin-top:50px;
+}
+section.description .container{
+	max-width:1000px;
+}
+section.description .description-main{
+	width:100%;
+	display:flex;
+}
+section.description .description-main .description-img{
+	width:60%;
+	float:left;
+	padding:0 2%;
+	
+}
 
+section.description .description-main .description-img .img-main{
+	width:100%;
+	padding-top:80%;
+	background-image:url(../img/carro-1.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	
+}
+
+section.description .description-main .description-aside{
+	width:40%;
+	padding:0 2%;
+	float:left;
+	
+}
+ .description-aside .text-aside {
+	width:100%;
+	margin:25px 0;
+	
+ }
+section.description .description-main .description-aside .text-aside h2{
+	font-size:28px;
+	color:black;
+	
+}
+section.description .description-main .description-aside  .text-aside p{
+	color:black;
+	font-size:18px;
+	text-align:left;
+	padding:10px 0;
+}
+
+.description-aside .botao-aside{
+	width:100%;
+}
+.description-aside .botao-aside input[type=button]{
+	max-width:180px;
+	height:45px;
+	line-height:0;
+	background-color:#EB2D2D;
+	border:none;
+	color:white;
+	font-size:18px;
+	padding:10px;
+	cursor:pointer;
+	border-radius:5px;
+	transition:1s;
+}
+.description-aside .botao-aside input[type=button]:hover{
+	background-color:#8F1414;
+}
+
+section.description .description-main .description-img .img-galeria{
+	width:100%;
+	overflow:hidden;
+	margin-top:15px;
+	padding:15px;
+}
+ .description-main .description-img  .img-galeria .img-galeria-2{
+	 width:200%;
+ }
+  .description-img  .img-galeria .img-galeria-2 .imgs-galeria{
+	  float:left;
+	  width:calc(33.3% *(100 / 200));
+	  padding-top:calc(33.3% * (100 / 200)* 0.6);
+	  background-color:red;
+	  background-position:center;
+	  background-size:cover;
+	  border:7px solid white;
+	  cursor:pointer;
+  }
+   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(1){
+	   background-image:url(../img/carro-1.jpg);
+   }
+   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(2){
+	   background-image:url(../img/carro-2.png);
+   }
+   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(3){
+	   background-image:url(../img/carro-3.png);
+   }
+    .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(4){
+	   background-image:url(../img/carro-1.jpg);
+   }
+   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(5){
+	   background-image:url(../img/carro-2.png);
+   }
+   .description-img  .img-galeria .img-galeria-2 .imgs-galeria:nth-of-type(6){
+	   background-image:url(../img/carro-3.png);
+   }
+   
+   
+
+
+
+
+
+/****/
 
 /**RESPOSNIVO**/
 
