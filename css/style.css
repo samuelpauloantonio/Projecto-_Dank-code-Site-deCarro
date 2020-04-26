@@ -1035,6 +1035,187 @@ section.description .description-main .description-img .img-galeria{
 
 /****/
 
+
+
+
+
+
+/***PAGINA SOBRE***/
+
+header.sobre-author nav.menu-desktop ul li:nth-of-type(5) a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+.linha-sobre{
+	width:100%;
+	position:relative;
+	left:0;
+	top:0;
+	text-align:center;
+	margin: 36px auto;
+	max-width:80%;
+	
+}
+
+
+.linha-sobre .linha-main{
+	width:100%;
+	border:1px solid black;
+	position:absolute;
+	left:0;
+	top:23px;
+}
+
+.linha-sobre h2{
+	background:white;
+	font-size:35px;
+	position:relative;
+	display:inline-block;
+	margin-right:-4px;
+	padding:0 20px;
+	font-style:italic;
+}
+section.sobre{
+	width:100%;
+	margin-bottom:90px;
+	padding:0 2%;
+}
+
+section.sobre .container{
+	max-width:853px;
+}
+section.sobre .container .img-main-sobre{
+	background:#0f0;
+	width:100%;
+	padding-top:60%;
+	
+}
+
+section.sobre .container .text-img-sobre {
+	width:100%;
+	margin:45px 0 20px 0;
+}
+section.sobre .container .text-img-sobre h2{
+	font-size:38px;
+	color:black;
+	padding-bottom:20px;
+	
+}
+section.sobre .container .text-img-sobre p{
+	font-size:25px;
+	color:black;
+	text-align:justify;
+}
+
+section.sobre .sobre-author{
+	width:100%;
+	padding-top:40px;
+	
+}
+
+section.sobre .sobre-author .img-author{
+	width:30%;
+	padding-top:30%;
+	background:red;
+	float:left;
+
+}
+section.sobre .sobre-author .text-author{
+	width:70%;
+	padding:30px;
+	float:right;
+	
+}
+
+section.sobre .sobre-author .text-author  p{
+	color:black;
+	font-size:25px;
+	text-align:left;
+}
+
+/****/
+
+
+
+/**EVENTOS***/
+header.eventos nav.menu-desktop ul li:nth-of-type(4) a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+section.eventos{
+	width:100%;
+	margin-bottom:90px;
+	padding:0 2%;
+}
+
+section.eventos .container{
+	max-width:853px;
+}
+section.eventos .container .img-eventos{
+	background:purple;
+	width:100%;
+	padding-top:60%;
+	
+}
+
+section.eventos .container .text-img-sobre {
+	width:100%;
+	margin:45px 0 20px 0;
+}
+section.eventos .container .text-img-sobre h2{
+	font-size:38px;
+	color:black;
+	padding-bottom:20px;
+	
+}
+section.eventos .container .text-img-sobre p{
+	font-size:25px;
+	color:black;
+	text-align:justify;
+}
+
+section.eventos .sobre-author{
+	width:100%;
+	padding-top:40px;
+	
+}
+
+
+
+section.eventos .container .text-sobre{
+	width:100%;
+	margin:40px 0;
+}
+
+section.eventos .container .text-sobre h2{
+	font-size:38px ;
+	color:black;
+}
+
+section.eventos .container .text-sobre p{
+	font-size:25px;
+	padding:58px 0;
+}
+
+section.eventos .container .text-sobre h3{
+	font-size:37px;
+	padding-bottom:50px;
+}
+section.eventos .container .text-sobre h3::after{
+	content: '29/7';
+	color:red;
+	font-size:37px;
+}
+section.eventos .container .text-sobre a{
+	text-decoration:underline;
+	font-size:25px;
+	color:black;
+	
+}
+
+/*****/
+
+
 /**RESPOSNIVO**/
 
 @media screen and (max-width: 1535px){
@@ -1552,6 +1733,23 @@ section.contacto .container .text-linha h2{
 	left:14px;
 }
 
+section.sobre .sobre-author .img-author{
+		width:30%;
+		float:none;
+		margin:0 auto;
+	}
+	
+section.sobre .sobre-author .text-author{
+		width:100%;
+		float:none;
+		
+	}
+section.sobre .sobre-author .text-author p{
+	text-align:justify;
+}
+
+
+
 
 }
 
@@ -1634,6 +1832,9 @@ section.servicos .todos-servicos-2 .depoimentos p{
 	html{
 		overflow-x:hidden;
 	}
+	
+	
+	
 }
 
 @media screen and ( max-width:300px ){
