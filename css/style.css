@@ -1085,7 +1085,9 @@ section.sobre .container{
 	max-width:853px;
 }
 section.sobre .container .img-main-sobre{
-	background:#0f0;
+	background-image:url(../img/car-1.jpg);
+	background-size:100% 100%;
+	background-position:center;
 	width:100%;
 	padding-top:60%;
 	
@@ -1116,7 +1118,9 @@ section.sobre .sobre-author{
 section.sobre .sobre-author .img-author{
 	width:30%;
 	padding-top:30%;
-	background:red;
+	background-image:url(../img/author.jpg);
+	background-size:cover;
+	background-position:center;
 	float:left;
 
 }
@@ -1152,7 +1156,9 @@ section.eventos .container{
 	max-width:853px;
 }
 section.eventos .container .img-eventos{
-	background:purple;
+	background-image:url(../img/carros-0.jpg);
+	background-size:100% 100%;
+	background-position:center;
 	width:100%;
 	padding-top:60%;
 	
@@ -1214,6 +1220,117 @@ section.eventos .container .text-sobre a{
 }
 
 /*****/
+
+
+
+/**GALERIA**/
+header.galeria nav.menu-desktop ul li:nth-of-type(3) a{
+	color: rgb(255, 3, 3);
+	border-bottom: 3px solid rgb(75, 174, 206);
+}
+ .text-galeria{
+	width:100%;
+	position:relative;
+	left:0;
+	top:0;
+	text-align:center;
+	margin-top:70px;
+}
+
+ .text-galeria  .linha {
+	border:1px solid black;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:23px;
+}
+
+ .text-galeria  h2{
+	display:inline-block;
+	background:white;
+	position:relative;
+	font-size:35px;
+	color:black;
+	padding:0 20px;
+	text-transform:uppercase;
+}
+
+section.galeria-main{
+	width:100%;
+	margin:90px 0;
+	padding:0 2%;
+}
+
+section.galeria-main .container{
+	max-width:1104px;
+}
+
+section.galeria-main .container .foto-border{
+	background:#C1C1C1;
+	width:100%;
+	padding:20px;
+	margin-bottom:50px;
+
+	
+}
+
+
+section.galeria-main .container .foto-border .img-carro{
+	padding-top:50%;
+	width:100%;
+	background-image:url(../img/carro-gl.png);
+	background-size:100% 100%;
+	background-position:center;
+	position:relative;
+	
+}
+
+
+section.galeria-main .container .foto-border .img-carro .img-small{
+	width:100%;
+	max-width:256px;
+	height:66px;
+	background:red;
+	line-height:66px;
+	position:absolute;
+	right:-19px;
+	bottom:50px;
+}
+
+section.galeria-main .container .foto-border .img-carro .img-small p{
+	color:white;
+	font-size:28px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+section.galeria-main .galeria-main-2 {
+	width:100%;
+}
+section.galeria-main .galeria-main-2 .box-img{
+	float:left;
+	width:100%;
+}
+
+section.galeria-main .galeria-main-2 .box-img .img-bloco{
+	width:calc(100% / 4 - 16px);
+	padding-top:13%;
+	background-image:url(../img/carro-1.jpg);
+	background-size:cover;
+	background-position:center;
+	float:left;
+	margin:8px;
+	cursor:pointer;
+}
+
+section.galeria-main .galeria-main-2 .box-img:nth-of-type(2) .img-bloco{
+	background-image:url(../img/carro-2.png);
+}
+section.galeria-main .galeria-main-2 .box-img:nth-of-type(3) .img-bloco{
+	background-image:url(../img/car-1.jpg);
+}
+
 
 
 /**RESPOSNIVO**/
@@ -1541,6 +1658,28 @@ section.description .description-main .description-aside {
 	margin-top:29px;
 }
 
+section.galeria-main .container .foto-border .img-carro .img-small{
+	width:100%;
+	max-width:180px;
+	height:50px;
+	background:red;
+	line-height:50px;
+	position:absolute;
+	right:-19px;
+	bottom:10px;
+}
+
+section.galeria-main .container .foto-border .img-carro .img-small p{
+	color:white;
+	font-size:18px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+
+
+
 }
 
 
@@ -1751,6 +1890,19 @@ section.sobre .sobre-author .text-author p{
 
 
 
+}
+@media screen and (max-width: 499px){
+section.galeria-main .container .foto-border .img-carro .img-small{
+		position:absolute;
+		bottom:0;
+		top:-61px;
+		max-width:130px;
+		height:40px;
+		line-height : 40px;
+	}
+section.galeria-main .container .foto-border .img-carro .img-small p{
+	font-size:14px;
+}
 }
 
 @media screen and (max-width: 417px){
