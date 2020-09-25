@@ -57,7 +57,7 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 
 
-![carro211](https://e333cbc1-e010-45e8-8a0c-3fc611a7f425.ws-eu01.gitpod.io/mini-browser/workspace/Projecto-_Dank-code-Site-deCarro/img/img1.PNG?raw=true)
+![carro211](https://github.com/samuelpauloantonio/Projecto-_Dank-code-Site-deCarro/blob/master/img/img1.PNG?raw=true)
 
 <br/>
 <br/>
@@ -67,7 +67,7 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 <br/>
 
-![carro211](https://e333cbc1-e010-45e8-8a0c-3fc611a7f425.ws-eu01.gitpod.io/mini-browser/workspace/Projecto-_Dank-code-Site-deCarro/img/img2.PNG?raw=true)
+![carro211](https://github.com/samuelpauloantonio/Projecto-_Dank-code-Site-deCarro/blob/master/img/img2.PNG?raw=true)
 
 
 <br/>
@@ -78,10 +78,9 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 <br/>
 
-![carro211](https://e333cbc1-e010-45e8-8a0c-3fc611a7f425.ws-eu01.gitpod.io/mini-browser/workspace/Projecto-_Dank-code-Site-deCarro/img/img3.PNG?raw=true)
+![carro211](https://github.com/samuelpauloantonio/Projecto-_Dank-code-Site-deCarro/blob/master/img/img3.PNG?raw=true)
 
 <br/>
 <br/>
 
 * ##### Developer/aluno  ............. Samuel Paulo António .........
-
