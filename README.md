@@ -57,13 +57,8 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 
 
-<<<<<<< HEAD
-![carro211]()
-=======
-![carro211]()
->>>>>>> 387c60e66bb2846492143658f70815126f0e7d6b
+![carro211](https://e333cbc1-e010-45e8-8a0c-3fc611a7f425.ws-eu01.gitpod.io/mini-browser/workspace/Projecto-_Dank-code-Site-deCarro/img/img1.PNG?raw=true)
 
-<br/>
 <br/>
 <br/>
 
@@ -72,27 +67,9 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 <br/>
 
+![carro211](https://e333cbc1-e010-45e8-8a0c-3fc611a7f425.ws-eu01.gitpod.io/mini-browser/workspace/Projecto-_Dank-code-Site-deCarro/img/img2.PNG?raw=true)
 
-<<<<<<< HEAD
-![carro211]()
 
-=======
-![carro211]()
->>>>>>> 387c60e66bb2846492143658f70815126f0e7d6b
-
-<br/>
-<br/>
-<br/>
-
-<<<<<<< HEAD
-## Sobre  
-
-<br/>
-<br/>
-
-![carro211]()
-=======
-<br/>
 <br/>
 <br/>
 
@@ -100,10 +77,9 @@ alguns ajustes ou adicionar novas funcionalidades.
 
 <br/>
 <br/>
-![carro211]()
->>>>>>> 387c60e66bb2846492143658f70815126f0e7d6b
 
-<br/>
+![carro211](https://e333cbc1-e010-45e8-8a0c-3fc611a7f425.ws-eu01.gitpod.io/mini-browser/workspace/Projecto-_Dank-code-Site-deCarro/img/img3.PNG?raw=true)
+
 <br/>
 <br/>
 
