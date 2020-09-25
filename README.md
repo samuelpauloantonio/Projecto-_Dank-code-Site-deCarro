@@ -57,7 +57,11 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 
 
+<<<<<<< HEAD
 ![carro211]()
+=======
+![carro211]()
+>>>>>>> 387c60e66bb2846492143658f70815126f0e7d6b
 
 <br/>
 <br/>
@@ -69,9 +73,25 @@ alguns ajustes ou adicionar novas funcionalidades.
 <br/>
 
 
+<<<<<<< HEAD
 ![carro211]()
 
+=======
+![carro211]()
+>>>>>>> 387c60e66bb2846492143658f70815126f0e7d6b
 
+<br/>
+<br/>
+<br/>
+
+<<<<<<< HEAD
+## Sobre  
+
+<br/>
+<br/>
+
+![carro211]()
+=======
 <br/>
 <br/>
 <br/>
@@ -80,8 +100,8 @@ alguns ajustes ou adicionar novas funcionalidades.
 
 <br/>
 <br/>
-
 ![carro211]()
+>>>>>>> 387c60e66bb2846492143658f70815126f0e7d6b
 
 <br/>
 <br/>
